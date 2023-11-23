@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.message {
+  margin-top: 40px; 
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,7 +29,22 @@
 }
 
 .App-link {
+  margin-bottom: 40px;
   color: #61dafb;
+}
+
+.customButton {
+  margin-top: 20px;
+  background-color: #4CAF50; /* Green */
+  border: red;
+  color: blueviolet;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: not-allowed;
 }
 
 @keyframes App-logo-spin {
